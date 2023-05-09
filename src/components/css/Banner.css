@@ -1,0 +1,43 @@
+.Banner{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.Banner .bannerinfo{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: auto;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+.Banner .bannerinfo h1{
+    position:relative;
+    font-size: 3rem;
+    color: rgb(6, 130, 247);
+    font-family: sans-serif;
+}
+
+
+.Banner .bannerinfo a{
+    position: relative;
+    text-decoration: none;
+    background: blue;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+    padding: 10px 5px;
+    font-size: 1.5rem;
+    font-weight: 750;
+    transition:0.2s linear ;
+}
+
+.Banner .bannerinfo a:hover{
+    
+    background: rgb(0, 0, 112);
+}
